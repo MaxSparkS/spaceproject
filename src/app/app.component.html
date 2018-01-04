@@ -1,0 +1,528 @@
+<header>
+    <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <logo>
+            <a class="logo navbar-brand waves-light" mdbRippleRadius href="#"><strong>Memories of
+                Martian</strong></a>
+        </logo>
+        <links>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active waves-light" mdbRippleRadius>
+                    <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link">Link#1</a>
+                </li>
+                <li class="nav-item waves-light" mdbRippleRadius>
+                    <a class="nav-link">Link#2</a>
+                </li>
+            </ul>
+        </links>
+    </mdb-navbar>
+    <div class="view hm-black-light jarallax parallax" data-jarallax='{"speed": 0.2}'
+         style="background-image: url(https://cdn-images-1.medium.com/max/2000/1*11XdTC9GmfU562am2gn0PQ.jpeg);">
+        <div class="full-bg-img">
+            <div class="container flex-center">
+                <div class="row pt-5 mt-3">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h1 class="h1-reponsive white-text font-up font-bold mb-3 animated fadeInDown"
+                                data-wow-delay="0.3s"><strong>Memories of Martian</strong></h1>
+                            <hr class="hr-light mt-4 animated fadeInDown" data-wow-delay="0.4s">
+                            <h5 class="font-up mb-5 white-text animated fadeInDown"
+                                data-wow-delay="0.4s"><strong>Extraordinary thoughts about space and
+                                not only</strong></h5>
+                            <a class="btn btn-outline-white animated fadeInDown waves-light"
+                               data-wow-delay="0.4s" mdbRippleRadius>Memories</a>
+                            <a class="btn btn-outline-white animated fadeInDown waves-light"
+                               data-toggle="modal" data-target="#basicExample"
+                               (click)="demoBasic.show()" data-wow-delay="0.4s" mdbRippleRadius>About
+                                project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div mdbModal #demoBasic="mdb-modal" class="modal fade" id="basicExample" tabindex="-1"
+         role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+         style="align-content: center;margin-top: 10%">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title w-100" id="myModalLabel">About project</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                            (click)="demoBasic.hide()">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis
+                    eos excepturi harum rem sapiente temporibus voluptatem. Aspernatur culpa
+                    deleniti deserunt doloremque dolores earum esse est fugiat, inventore minus
+                    nulla, odio possimus quas quis repudiandae sed totam voluptatibus! Accusantium
+                    cumque delectus dolor doloremque error, id ipsa itaque iure, laboriosam minima
+                    mollitia natus optio quae quaerat tempora tempore temporibus tenetur. Aliquam
+                    blanditiis dolore earum error facilis id perferendis, quas sequi. Alias
+                    consectetur dignissimos expedita nulla quisquam quos unde veniam. Delectus earum
+                    eligendi et nam. Adipisci debitis dicta dolore excepturi expedita! Aliquid animi
+                    aut cupiditate dolorum eligendi error ex facere fuga fugiat harum illo inventore
+                    ipsa iusto libero magnam maiores nemo, optio pariatur placeat qui quod quos
+                    reiciendis repellendus repudiandae, tenetur vel voluptate voluptatum? Autem
+                    blanditiis fugit laboriosam modi non perspiciatis qui sint veniam vitae
+                    voluptates? Animi asperiores autem commodi cum delectus dicta dolor dolorem
+                    doloribus eum eveniet, fugiat fugit illo inventore iure minima numquam obcaecati
+                    perspiciatis quam quidem repellat rerum sapiente similique soluta sunt vero
+                    voluptas voluptates. A accusamus alias aliquid, architecto assumenda cum
+                    deserunt dignissimos dolore earum error esse est eum illo in, labore minima
+                    minus modi nihil nobis numquam officiis quasi qui repudiandae saepe, ut? Aperiam
+                    beatae blanditiis consequatur culpa dignissimos, dolor dolorem ducimus excepturi
+                    id iure, magni nesciunt obcaecati optio quaerat quam qui quisquam repellat rerum
+                    voluptate voluptatibus. Ad beatae cumque dolorem est hic iure qui quos
+                    voluptatem. Aperiam doloribus itaque repellat! Assumenda libero magnam nobis
+                    sequi! Facere hic laboriosam magnam maiores officiis placeat, quam quidem
+                    reiciendis repellat rerum saepe sit voluptatibus? At dolores eos ex ipsum sequi.
+                    Doloremque itaque, mollitia porro quidem sint vel. Ab alias, consequatur
+                    consequuntur deserunt dolor dolore earum eligendi enim est et fugiat hic in
+                    laboriosam minus natus, nihil non nulla numquam odit possimus praesentium
+                    quisquam recusandae similique, soluta sunt tenetur ullam veritatis!
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="row py-5 mt-4">
+            <div class="col-md-12 text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dicta fugit
+                    harum incidunt maiores neque nesciunt reiciendis rerum similique, ut! Eum in
+                    ipsa laudantium mollitia omnis optio quas sapiente voluptate!</p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-md-center" style="margin: 10px 0 10px 0">
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="http://wallpapertvs.com/wp-content/uploads/2014/11/astronaut-17485.jpg"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="https://highereg.com/wp-content/uploads/2017/05/surreal-astronaut-wallpaper-images-For-Desktop-Wallpaper.jpg"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="https://resi.ze-robot.com/dl/as/astronaut-3-1920%C3%971080.jpg"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-md-center" style="margin: 10px 0 10px 0">
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="http://w4.wallls.com/uploads/original/201602/21/wallls.com_75915.png"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="http://i.imgur.com/TKeab6q.jpg"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="http://data.freehdw.com/astronaut-floating-in-space.jpg"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="view hm-black-light jarallax parallax-bottom" data-jarallax='{"speed": 0.2}'
+         style="background-image:
+     url(http://data.freehdw.com/astronaut-floating-in-space.jpg);">
+        <div class="full-bg-img">
+            <div class="container flex-center">
+                <div class="row pt-5 mt-3">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h1 class="h1-reponsive white-text font-up font-bold mb-3 animated fadeInDown"
+                                data-wow-delay="0.3s"><strong>Memories of Martian</strong></h1>
+                            <hr class="hr-light mt-4 animated fadeInDown" data-wow-delay="0.4s">
+                            <h5 class="font-up mb-5 white-text animated fadeInDown"
+                                data-wow-delay="0.4s"><strong>Extraordinary thoughts about space and
+                                not only</strong></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row py-5 mt-4">
+            <div class="col-md-12 text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dicta fugit
+                    harum incidunt maiores neque nesciunt reiciendis rerum similique, ut! Eum in
+                    ipsa laudantium mollitia omnis optio quas sapiente voluptate!</p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-md-center" style="margin: 10px 0 10px 0">
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="http://wallpapertvs.com/wp-content/uploads/2014/11/astronaut-17485.jpg"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="https://highereg.com/wp-content/uploads/2017/05/surreal-astronaut-wallpaper-images-For-Desktop-Wallpaper.jpg"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="https://resi.ze-robot.com/dl/as/astronaut-3-1920%C3%971080.jpg"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-md-center" style="margin: 10px 0 10px 0">
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="http://w4.wallls.com/uploads/original/201602/21/wallls.com_75915.png"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="http://i.imgur.com/TKeab6q.jpg"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col col-md-3">
+            <div class="card">
+
+                <!--Card image-->
+                <div class="view hm-white-slight waves-light" mdbRippleRadius>
+                    <img src="http://data.freehdw.com/astronaut-floating-in-space.jpg"
+                         class="img-fluid" alt="Card image with a tree in a middle of a lake.">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Card title</h4>
+                    <!--Text-->
+                    <p class="card-text">Some quick example text to build on the card title and make
+                        up the bulk of the card's content.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="view hm-black-light jarallax parallax-bottom" data-jarallax='{"speed": 0.2}'
+         style="background-image:
+     url(https://resi.ze-robot.com/dl/as/astronaut-3-1920%C3%971080.jpg);">
+        <div class="full-bg-img">
+            <div class="container flex-center">
+                <div class="row pt-5 mt-3">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h1 class="h1-reponsive white-text font-up font-bold mb-3 animated fadeInDown"
+                                data-wow-delay="0.3s"><strong>Memories of Martian</strong></h1>
+                            <hr class="hr-light mt-4 animated fadeInDown" data-wow-delay="0.4s">
+                            <h5 class="font-up mb-5 white-text animated fadeInDown"
+                                data-wow-delay="0.4s"><strong>Extraordinary thoughts about space and
+                                not only</strong></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+<!--Footer-->
+<footer class="page-footer mdb-color center-on-small-only" style="margin-top: 0px">
+
+    <!--Footer Links-->
+    <div class="container">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-3 offset-md-1">
+                <h5 class="title">Footer Content </h5>
+                <p>Here you can use rows and columns here to organize your footer content.</p>
+            </div>
+            <!--/.First column-->
+
+            <hr class="hidden-md-up">
+
+            <!--Second column-->
+            <div class="col-md-2 offset-md-1">
+                <h5 class="title">Links</h5>
+                <ul>
+                    <li><a href="#!">Link 1</a></li>
+                    <li><a href="#!">Link 2</a></li>
+                    <li><a href="#!">Link 3</a></li>
+                    <li><a href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+
+            <hr class="hidden-md-up">
+
+            <!--Third column-->
+            <div class="col-md-2">
+                <h5 class="title">Links</h5>
+                <ul>
+                    <li><a href="#!">Link 1</a></li>
+                    <li><a href="#!">Link 2</a></li>
+                    <li><a href="#!">Link 3</a></li>
+                    <li><a href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <!--/.Third column-->
+
+            <hr class="hidden-md-up">
+
+            <!--Fourth column-->
+            <div class="col-md-2">
+                <h5 class="title">Links</h5>
+                <ul>
+                    <li><a href="#!">Link 1</a></li>
+                    <li><a href="#!">Link 2</a></li>
+                    <li><a href="#!">Link 3</a></li>
+                    <li><a href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <!--/.Fourth column-->
+
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <hr>
+    <hr>
+    <div class="text-center mb-3">
+        <a href="http://facebook.com" class="btn-floating btn btn-fb waves-light" mdbRippleRadius><i
+                class="fa fa-facebook"> </i></a>
+        <a class="btn-floating btn btn-tw waves-light" mdbRippleRadius><i
+                class="fa fa-twitter"> </i></a>
+        <a class="btn-floating btn btn-gplus waves-light" mdbRippleRadius><i
+                class="fa fa-google-plus"> </i></a>
+        <a class="btn-floating btn btn-li waves-light" mdbRippleRadius><i
+                class="fa fa-linkedin"> </i></a>
+        <a class="btn-floating btn btn-git waves-light" mdbRippleRadius><i
+                class="fa fa-github"> </i></a>
+        <a class="btn-floating btn btn-pin waves-light" mdbRippleRadius><i
+                class="fa fa-pinterest"> </i></a>
+        <a href="instagram.com" class="btn-floating btn btn-ins waves-light" mdbRippleRadius><i
+                class="fa fa-instagram"> </i></a>
+    </div>
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            © 2018 Copyright: <a> SpaceProd </a>
+        </div>
+    </div>
+</footer>

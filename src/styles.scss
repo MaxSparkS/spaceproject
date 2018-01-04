@@ -1,0 +1,15 @@
+.view {
+  background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+  background-size: cover;
+}
+.navbar {
+  background-color: transparent;
+}
+.top-nav-collapse {
+  background-color: #3B465E;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #000732;
+  }
+}
