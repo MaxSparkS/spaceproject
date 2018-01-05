@@ -8,10 +8,17 @@ import { AgmCoreModule } from '@agm/core';
 import { AppComponent } from './app.component';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {HeaderComponent} from './components/navbar/header.component';
+import {ItemMenuComponent} from './components/item_menu/item_menu.component';
+import {FooterComponent} from './components/footer/footer.component';
+import {HomeScreenComponent} from './components/home_screen/home-screen.component';
+import {ImageComponent} from './components/parallax-images/image.component';
+import {ImageSecondComponent} from './components/parallax-images/image-second.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, HeaderComponent, ItemMenuComponent, FooterComponent, HomeScreenComponent,
+      ImageComponent, ImageSecondComponent
   ],
   imports: [
     BrowserModule,
