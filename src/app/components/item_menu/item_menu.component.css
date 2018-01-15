@@ -1,0 +1,7 @@
+.cards{
+    min-height: 425px;
+}
+
+.author{
+    position: absolute; bottom:0; right: 15px
+}
